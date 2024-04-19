@@ -43,6 +43,7 @@
     - dashbaord
       - dashboard (jsx & css)
       - product (jsx & css)
+      - product-details (jsx & css)
     - cart
       - cart (jsx & css)
       - cartitem (jsx & css)
