@@ -3,8 +3,21 @@ const mongoose = require("mongoose");
 
 // creating the data schema for the orders
 const orderSchema = new mongoose.Schema({
-  recordingOfSale: {
-    type: String,
+  products: [
+    {
+      product: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Product",
+      },
+      quantity: {
+        type: Number,
+        required: true,
+      },
+    },
+  ],
+  user: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "User",
     required: true,
   },
 });
