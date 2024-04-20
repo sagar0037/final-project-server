@@ -11,8 +11,11 @@
 
 ## Nodejs Express (Back-end)
 
-To run the server, 
->node index.js
+To run the server,
+
+download the zip file
+
+run: node index.js
 
 ## React Application (Front-end)
 
@@ -20,6 +23,8 @@ To run the client app,
 
 Go to: [https://github.com/sagar0037/web-final-project/tree/api-calling](https://github.com/sagar0037/web-final-project/tree/api-calling)
 
-npm install
+download the zip file
 
-npm start
+run: npm install
+
+run: npm start
