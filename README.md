@@ -1,4 +1,4 @@
-# Project Overview
+## Project Overview
 **The project is about the development of an e-commerce website in REACT, especially for electronic devices like laptops, smartphones, and so on.**
 **The products are directly linked to the database in MONGODB and data is fetched using NODEJS EXPRESS.**
 
@@ -8,51 +8,16 @@
 - **server (nodejs express)**
 - **client (react web application)**
 
-## Mongodb (Database)
-
-- **Database: shop**
-- **Database schema:**
-  - products (\_id, description, image, pricing, shippingCost)
-  - users (\_id, email, password, username, purchaseHistory, shippingAddress)
-  - orders (\_id, products { product, quantity}, user )
 
 ## Nodejs Express (Back-end)
 
-- **Framework: Express**
-- **Other Dependencies: body-parser, mongoose, cors**
-- **Port: 5000**
-- **Folder Structure:**
-  - models
-    - product.js
-    - user.js
-    - order.js
-  - routes
-    - productRoutes.js
-    - userRoutes.js
-    - orderRoutes.js
-  - api.js
-  - mongodb.js
-  - index.js
+To run the server, 
+>node index.js
 
 ## React Application (Front-end)
 
-- **Library: React**
-- **Other Dependencies: react-router-dom, bootstrap, react-bootstrap**
-- **Port: 3000**
-- **Folder Structure:**
-  - assets
-  - components: navbar (jsx & css)
-  - context: product-context.jsx
-  - pages:
-    - dashbaord
-      - dashboard (jsx & css)
-      - product (jsx & css)
-      - product-details (jsx & css)
-    - cart
-      - cart (jsx & css)
-      - cartitem (jsx & css)
-    - profile
-      - profile (jsx & css)
-  - App.js
-
-│
+To run the client app,
+Go to:
+>[a link](https://github.com/sagar0037/web-final-project/tree/api-calling)
+>npm install
+>npm start
