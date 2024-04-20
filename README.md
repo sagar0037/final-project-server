@@ -17,7 +17,9 @@ To run the server,
 ## React Application (Front-end)
 
 To run the client app,
-Go to:
->[https://github.com/sagar0037/web-final-project/tree/api-calling](https://github.com/sagar0037/web-final-project/tree/api-calling)
->npm install
->npm start
+
+Go to: [https://github.com/sagar0037/web-final-project/tree/api-calling](https://github.com/sagar0037/web-final-project/tree/api-calling)
+
+npm install
+
+npm start
