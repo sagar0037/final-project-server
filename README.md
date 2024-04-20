@@ -18,6 +18,6 @@ To run the server,
 
 To run the client app,
 Go to:
->[a link](https://github.com/sagar0037/web-final-project/tree/api-calling)
+>[https://github.com/sagar0037/web-final-project/tree/api-calling](https://github.com/sagar0037/web-final-project/tree/api-calling)
 >npm install
 >npm start
